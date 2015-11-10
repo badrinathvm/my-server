@@ -22,7 +22,7 @@ app.use(middleware.logger);
 //app.use(middleware.requireAuthentication);
 
 app.get('/about',middleware.requireAuthentication,function(request,response){
-  response.send('About Us');
+  response.send('About Us!');
 })
 
 // To show our app inside node js server
