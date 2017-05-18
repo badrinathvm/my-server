@@ -1,5 +1,6 @@
 
 message = document.getElementById("fly").innerHTML; // $ = taking a new line
+console.log(message);
 distance = 50; // pixel(s)
 speed = 125; // milliseconds
 
